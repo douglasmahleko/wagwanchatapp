@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "wagwanapp_backend": {
+      "main": "src/wagwanapp_backend/main.mo",
+      "type": "motoko"
+    },
+    "wagwanapp_frontend": {
+      "dependencies": [
+        "wagwanapp_backend"
+      ],
+      "source": [
+        "src/wagwanapp_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "wagwanapp_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
