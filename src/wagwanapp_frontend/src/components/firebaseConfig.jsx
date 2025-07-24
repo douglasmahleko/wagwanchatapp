@@ -4,12 +4,7 @@ import { getFirestore, collection } from 'firebase/firestore'
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBktLlVTriIF51o3R-QLAgpegv0OJ5VQ5M",
-  authDomain: "wagwan-e49eb.firebaseapp.com",
-  projectId: "wagwan-e49eb",
-  storageBucket: "wagwan-e49eb.firebasestorage.app",
-  messagingSenderId: "342751327087",
-  appId: "1:342751327087:web:874bbaa6726d6797002e9a"
+  // the firebase api key
 };
 
 const app = initializeApp(firebaseConfig);
